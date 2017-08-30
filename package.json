@@ -1,0 +1,20 @@
+{
+  "name": "aireticket",
+  "version": "1.0.0",
+  "description": "Ticketing System for the big boys",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.11.2"
+  },
+  "author": "Jun Nunez",
+  "license": "ISC",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9"
+  }
+}
