@@ -2,7 +2,21 @@
 	<head>
 		<meta charset='utf-8'>
 	</head>
-	<bpdy>
+	<body>
 		<h1>Welcome Gentlemen to the best Ticketing System Ever!</h1>
+
+		<script src="/socket.io/socket.io.js"> </script>
+		<script>
+			var socket = io();
+
+			socket.on('connect', () => {
+				console.log('Connected to server!');
+			});
+
+			socket.on('disconnect', (socket) => {
+				console.log('Disconnected to server!');
+			});
+
+		</script>
 	</body>
 </html>
