@@ -16,3 +16,14 @@ socket.on('disconnect', function() {
 socket.on('newEmail', function(email){
 	console.log('New Email!', email);
 });
+
+$('#livechat').draggable({ containment: "parent" });
+$('#livechat').click(function(){
+	$(this).hide("slow");
+	$('#chatbutton').show();
+});
+
+$('#chatbutton').click(function(){
+	$(this).hide();
+	$('#livechat').show().slideUp("slow");
+});
