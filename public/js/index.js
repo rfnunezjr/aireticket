@@ -24,6 +24,5 @@ $('#livechat').click(function(){
 });
 
 $('#chatbutton').click(function(){
-	$(this).hide();
-	$('#livechat').show().slideUp("slow");
+	$('#livechat').show(1000);
 });
