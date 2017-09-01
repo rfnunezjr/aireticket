@@ -18,11 +18,10 @@ socket.on('newEmail', function(email){
 });
 
 $('#livechat').draggable({ containment: "parent" });
-$('#livechat').click(function(){
-	$(this).hide("slow");
-	$('#chatbutton').show();
-});
 
-$('#chatbutton').click(function(){
-	$('#livechat').show(1000);
+$('#chatbutton').on("click",function() {
+	
+	$('#livechat').toggle('slide', {
+		direction: 'down'
+	});
 });

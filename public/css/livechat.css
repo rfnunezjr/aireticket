@@ -7,23 +7,23 @@ div#parent {
 div#livechat {
     position: absolute;
     display: none;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 344px;
     height: 500px;
-    bottom: 60px;
-    right: 5px;
+    bottom: 75px;
+    right: 30px;
     background-color: #0887CD;
 }
 
-div#chatbutton {
+div#chatbutton_container {
     position: absolute;
-    bottom: 5px;
-    right: 5px;
+    bottom: 20px;
+    right: 30px;
 
 }
 
-button#chatbutton {
+div#chatbutton {
     background: #E97217;
 
 }
@@ -52,6 +52,7 @@ div#footer{
     border-radius: 0 0 8px 8px;
     height: 20%;
     width: 100%;
+    padding-top: 20px;
     background-color: #0887CD;
 }
 
@@ -68,4 +69,8 @@ img#logo{
     height: auto;
     width: auto;
     vertical-align: middle;
+}
+
+div#chat_message{
+    margin-left: 20px;
 }

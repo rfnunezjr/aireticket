@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     
@@ -20,17 +21,40 @@
 
   <body>
     <div id='parent'>
-    <div id='livechat'>
+    <div id='livechat' class='toggler'>
       <div id='header-first'>
       </div>
       <div id='header-second'>
         <div id='logo'><img id="logo" src="img/as_logo.jpg" no-repeat/></div>
       </div>
       <div id='body'></div>
-      <div id='footer'></div>
+      <div id='footer'>
+        <div id='container'>
+          <div class="row">
+            <div class="col-sm-8" id="chat_message">
+              <textarea class="form-control col-sm-12"></textarea>
+            </div>
+            <div class="col-sm-4">
+              <button id="sendbutton" class="btn btn-success btn-xs">
+                <i class="fa fa-xs fa-paper-plane"></i> Send
+              </button>
+            </div>
+          </div>
+          <div class="row">
+          </div>
+          
+        
+          
+        </div>
+      </div>
 
     </div>
-    <div id='chatbutton'><button id="chatbutton" class="btn btn-success">Live Chat!</button></div>
+
+    <div id='chatbutton_container'>
+      <div id="chatbutton" class="btn btn-success">
+        <i class="fa fa-lg fa-weixin"></i> Live Chat!
+      </div>
+    </div>
     </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
