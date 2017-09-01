@@ -7,13 +7,13 @@ div#parent {
 div#livechat {
     position: absolute;
     display: none;
-    border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px 8px 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 344px;
-    height: 500px;
+    width: 342px;
+    height: 580px;
     bottom: 75px;
     right: 30px;
-    background-color: #0887CD;
+
 }
 
 div#chatbutton_container {
@@ -30,19 +30,19 @@ div#chatbutton {
 
 div#header-first{
     border-radius: 8px 8px 0 0;
-    height: 40px;
+    height: 6.9%;
     width: 100%;
     background-color: #0887CD;
 }
 div#header-second{
     padding-left: 10px;
-    height: 64px;
+    height: 11.03%;
     width: 100%;
     background-color: white;
 }
 
 div#body{
-    height: 60%;
+    height: 56.704%;
     width: 100%;
     background-color: #0E4F89;
 
@@ -50,10 +50,10 @@ div#body{
 
 div#footer{
     border-radius: 0 0 8px 8px;
-    height: 20%;
+    height: 25.366%;
     width: 100%;
-    padding-top: 20px;
-    background-color: #0887CD;
+    padding-top: 8px;
+    background-color: #F8F8F8;
 }
 
 div#logo{
@@ -72,5 +72,38 @@ img#logo{
 }
 
 div#chat_message{
-    margin-left: 20px;
+    padding-left: 23px; 
+    padding-right: 23px;
+}
+
+div#chat_sendButton{
+    padding-left: 10px; 
+}
+
+textarea {
+    display: inline-block;
+    overflow: auto;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    border: 0;
+    height: 76px;
+    width: 100%;
+    background-color: white;
+    font-family: Noto Sans,sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+
+}
+
+#chat_attachButton,#chat_sendButton {
+    padding-top: 0px;
+    text-align: center;
+
+}
+
+button {
+    color: #E97217;
+    border-color: #E97217;
+    background-color: #F8F8F8;
 }
